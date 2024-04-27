@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+
+    <div class="nav1">
+        <div class="logo">
+            <h2>WAQAS ALI KHAN</h2>
+        </div>
+
+        <div class="nav2">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+
+        </div>
+
+        <div class="nav3">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Project</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+
+
+        </div>
+
+        <div class="mnav">
+            <input onclick="show()" type="checkbox" id="checkbox">
+            <label for="checkbox" class="toggle">
+                <div class="bars" id="bar1"></div>
+                <div class="bars" id="bar2"></div>
+                <div class="bars" id="bar3"></div>
+            </label>
+        </div>
+
+    </div>
+
+
+    <div class="banner">
+        <div class="btext">
+            <p class="p1">Projects</p>
+            <p>Dive into my diverse portfolio, showcasing a myriad of website development and design projects. From
+                sleek and modern interfaces to robust web applications, I've crafted unique solutions across various
+                industries. Each project tells a story of innovation, attention to detail, and a commitment to
+                delivering compelling digital experiences.</p>
+            <div class="btn4">
+
+            <a href="contact.html">Contact me</a>
+            </div>
+
+        </div>
+
+        <div class="bimg">
+            <img src="WhatsApp_Image_2024-02-13_at_5.37.24_AM-removebg-preview.png" alt="">
+        </div>
+    </div>
+
+    <div class="porfolio">
+        <h2>Porfolio</h2>
+        <p>Samples of Some of my projects</p>
+    </div>
+
+    <div class="images">
+        <img src="p1.jpg" alt="">
+        <img src="p2.jpg" alt="">
+        <img src="p3.jpg" alt="">
+        <img src="p4.jpg" alt="">
+    </div>
+
+    <div class="images2">
+        <div class="img10">
+            <img src="p5.jpg" alt="">
+        </div>
+
+        <div class="img10">
+            <img src="p6.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="img4">
+        <img src="p8.jpg" alt="">
+
+        <div class="imgn">
+
+            <img src="p9.jpg" alt="">
+        </div>
+        <div class="imgn">
+
+            <img src="p3.jpg" alt="">
+        </div>
+    </div>
+
+<div class="imagess">
+    <img src="p1.jpg" alt="">
+</div>
+
+
+<div class="footer">
+    <div class="fbox">
+        <h2>Pages</h2>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    <div class="fbox">
+        <h2>Services</h2>
+        <ul>
+            <li><a href="">Web Development</a></li>
+            <li><a href="">Web Designing</a></li>
+            <li><a href="">SEO & Hosting</a></li>
+            <li><a href="">Bug Fixing</a></li>
+        </ul>
+    </div>
+    <div class="fbox">
+        <h2>Contact</h2>
+        <ul>
+            <li><a href=""> <i class="fa fa-phone"></i> +923439996997 </a></li>
+            <li><a href=""><i class="fa fa-envelope"></i> waqasali9996997@gmail.com</a></li>
+            <li><a href=""><i class="fa fa-home" id="home"></i> Aboha Swat tehsil barikot district swat </a></li>
+
+        </ul>
+    </div>
+    <div class="fbox">
+        <h2>Social</h2>
+        <ul>
+            <li><a href=""> <i class="fa fa-linkedin"></i> Linkedin</a></li>
+            <li><a href=""><i class="fa fa-instagram"></i> Instagram</a></li>
+            <li><a href=""><i class="fa fa-facebook"></i> Fiverr</a></li>
+            <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+            <li><a href=""><i class="fa fa-whatsapp"></i> Whatsapp</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="footerend">
+    <p>Copyright@Waqasali Webstudio Developed By Waqas ali khan</p>
+</div>
+
+
+
+
+
+<script>
+    function show() {
+        var mobnav = document.getElementsByClassName("nav3")[0];
+        if (mobnav.style.display === 'flex') {
+            mobnav.style.display = 'none';
+        } else {
+            mobnav.style.display = 'flex';
+        }
+    }
+
+
+
+
+
+    
+    // Function to handle button click event
+    function redirectToAnotherPage() {
+        // Replace 'another_page.html' with the URL of the page you want to redirect to
+        window.location.href = 'project.html';
+    }
+
+    // Add click event listener to the button
+    document.getElementById('detail').addEventListener('click', redirectToAnotherPage);
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
